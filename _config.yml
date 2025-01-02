@@ -1,0 +1,35 @@
+title: Seunguk Shin
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+compress_html:
+  ignore:
+    envs: all
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+plugins:
+  - jekyll-remote-theme
+
+# configuration for just-the-docs
+search_enabled: true
+search:
+  heading_level: 6
+  preview: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+  focus_shortcut_key: 'k'
+aux_links:
+  "Seunguk Shin on GitHub":
+    - "//github.com/seungukshin/seungukshin.github.io"
+aux_links_new_tab: true
+nav_enabled: true
+heading_anchors: true
+footer_content: "Last updated:"
+last_edit_timestamp: true
+last_edit_time_format: "%Y-%m-%d %H:%M:%S"
+color_scheme: dark
